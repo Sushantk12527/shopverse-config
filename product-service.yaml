@@ -7,8 +7,8 @@ spring:
       path: /h2-console
 
   datasource:
-#    url: jdbc:h2:mem:productdb
-    url: jdbc:h2:file:./data/product-db
+    url: jdbc:h2:mem:productdb
+   # url: jdbc:h2:file:./data/product-db
     driver-class-name: org.h2.Driver
     username: sa
     password:
