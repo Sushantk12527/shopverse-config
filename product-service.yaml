@@ -38,6 +38,8 @@ logging:
     org.springframework: "ERROR"
     org.hibernate: "ERROR"
     root: "WARN"
+    com.netflix.discovery: INFO
+    com.netflix.eureka: INFO
 
 eureka:
   client:
